@@ -11,6 +11,12 @@
 body {
     background-color: #121212;
     font-family: 'HitmarkerText', serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .9)), url('images/BO6_KA_VAULT_16x9.jpg'); /**adjust darkness of bg img**/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh
 }
 .header-logo {
     display: flex;
@@ -59,3 +65,4 @@ body {
     background: #514446;
     border-color: rgba(255, 255, 255, 1);
 }
+
