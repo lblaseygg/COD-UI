@@ -16,7 +16,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 100vh
+    min-height: 100vh;
+    display: flexbox;
 }
 
 .vid-bg{
@@ -85,3 +86,24 @@ body {
     border-color: rgba(255, 255, 255, 1);
 }
 
+
+.navbar .navbar-menu.active {
+    background: #514446;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.store {
+    background: url(images/BO6_KA_VAULT_16x9.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.store::before {
+    content: ''; /* Creates the pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity for the dimming effect */
+    z-index: -1; /* Ensure the overlay stays behind the content */
+}
