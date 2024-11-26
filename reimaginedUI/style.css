@@ -90,13 +90,11 @@ body {
 
 .navbar-menu:hover {
     background: #665558;
-    /* border-color: rgba(255, 255, 255, 1); */
 }
 
 
-.navbar .navbar-menu.active {
+.navbar .navbar-menu.active { /* styles for active buttons */
     background: #665558;
-    /* border-color: rgba(255, 255, 255, 1); */
 }
 
 .imgmulti {
